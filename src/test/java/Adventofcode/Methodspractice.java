@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-//used chat gpt here for method wise for understanding purpose not the final program
+//used chat gpt here for method wise for understanding purpose
 
 public class Methodspractice {
     @Test
