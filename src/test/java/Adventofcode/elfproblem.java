@@ -16,6 +16,7 @@ public class elfproblem {
         try {
             List<String> lines = Files.readAllLines(Path.of("src/test/java/Adventofcode/AdvInput1"));
             List<Integer> person = new ArrayList<>();//to create arraylist
+            System.out.println(lines);
             int currentperson = 0;
             //used for loop (control structures)here to simplfy the iteration task
             for (String line : lines) {
