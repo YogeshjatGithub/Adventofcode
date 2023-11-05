@@ -17,7 +17,7 @@ public class elfproblem {
             List<String> lines = Files.readAllLines(Path.of("src/test/java/Adventofcode/AdvInput1"));
             List<Integer> person = new ArrayList<>();//to create arraylist
             int currentperson = 0;
-            //used fot loop (control structures)here to simplfy the iteration task
+            //used for loop (control structures)here to simplfy the iteration task
             for (String line : lines) {
                 if (line.isEmpty()) { //whitespaces are considered for our new sublists
                     person.add(currentperson);
